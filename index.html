@@ -23,6 +23,13 @@
       box-sizing: border-box;
     }
 
+    @media (max-width: 600px) {
+    .video-container iframe {
+      max-height: 300px; /* Or adjust to fit better on portrait */
+      height: auto;
+      }
+    }
+
     body.dark-mode {
       --bg-color: #121212;
       --text-color: #e0e0e0;
